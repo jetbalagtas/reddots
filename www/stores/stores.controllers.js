@@ -105,13 +105,6 @@ angular
        });
     };
 
-    //  $scope.addToCart = function (newCartProduct) {
-    //    if($stateParams.isChecked)
-    //    console.log('hello', CartService.cart());
-    //    CartService.addCartProduct(newCartProduct);
-    //  };
-
-
 
    if($stateParams.newCartProduct) {
      vm.cart = CartService.getProduct($stateParams.newCartProduct);
